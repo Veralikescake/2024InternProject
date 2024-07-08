@@ -21,7 +21,6 @@ password = client.get_secret("shein-password")
 
 website = "https://sellerhub.shein.com/#/login"
 username = "PCO017"
-# password = "6727626Hu."
 username_xpath = '//input[@name="username"]'
 password_xpath = '//input[@name="password"]'
 product_xpath = '//span[@title="商品"]'
