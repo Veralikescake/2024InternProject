@@ -26,7 +26,7 @@ password_xpath = '//input[@name="password"]'
 product_xpath = '//span[@title="商品"]'
 productlist_xpath = '//span[@title="商品列表"]'
 batch_menu_xpath =  '//span[text()="批量导出"]/ancestor::div[@class="so-select-inner so-select-drop-down"]'
-batch_export_xpath =  '//*[@id="per"]/div[2]/div[1]/div/div[1]/div[5]/div/div/div[2]/div/div[2]/div/a[1]'
+batch_export_xpath =  "//a[.//span[text()='批量导出']]"
 file_xpath = '(//table)[2]//tr[1]//td[3]//a'
 userlabel_xpath = '//div[contains(@class, "shein-components_soc-fe-sso-sdk_user")]//div[contains(@class, "shein-components_soc-fe-sso-sdk_label")]'
 logout_xpath = '//div[contains(@class, "shein-components_soc-fe-sso-sdk_logoutItem")]'
